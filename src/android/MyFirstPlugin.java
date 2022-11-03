@@ -21,7 +21,8 @@ public class MyFirstPlugin extends CordovaPlugin {
             return true;
         }
         else if (action.equals("add")){
-            nativeToast();
+            this.add(args, callbackContext);
+            return true;
         }
         return false;
     }
