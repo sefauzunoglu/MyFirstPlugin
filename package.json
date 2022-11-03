@@ -1,0 +1,21 @@
+{
+  "name": "myfirstplugin",
+  "version": "0.0.1",
+  "description": "First Plugin",
+  "cordova": {
+    "id": "com.bridge.myfirstplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Sefa",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
